@@ -1,0 +1,10 @@
+Docker commands to build and run the image: 
+    docker build -t course .
+    docker run  --name course_app  -p 8000:80 course
+
+Endpoints: 
+    /courses
+    /course/overview?course_name=Computer Vision Course
+    /course/chapter?course_name=Computer Vision Course&chapter_index=0
+    /course/rating
+

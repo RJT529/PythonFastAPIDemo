@@ -1,0 +1,7 @@
+{
+    "mongo_host": "host.docker.internal",
+    "mongo_port": 27017,
+    "mongo_db_name": "coursesDB",
+    "mongo_collection_name": "courses",
+    "json_file_path": "courses.json"
+  }
